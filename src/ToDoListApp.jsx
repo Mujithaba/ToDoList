@@ -59,7 +59,7 @@ function ToDoList() {
             [updatedTasks[index], updatedTasks[index + 1]] = [updatedTasks[index + 1], updatedTasks[index]];
             setTasks(updatedTasks);
         }
-    }
+    }   
 
     function checkedMark(task) {
         if (checkedTasks.includes(task)) {
