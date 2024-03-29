@@ -1,0 +1,101 @@
+body{
+  /* background-color: rgb(33, 31, 31); */
+  background-image: url('/pexels-francesco-ungaro-6020336.jpg');
+}
+.to-do-list {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 4rem;
+  
+  color: rgb(255, 255, 255);
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button {
+  background-color: hsl(125, 47%, 54%);
+}
+.add-button:hover {
+  background-color: hsl(125, 47%, 44%);
+}
+
+.delete-button {
+  background-color: hsl(10, 51%, 27%);
+}
+.delete-button:hover {
+  background-color: hsl(10, 90%, 40%);
+}
+
+.move-button {
+  background-color: hsl(212, 28%, 9%);
+}
+.move-button:hover {
+  background-color: hsl(212, 25%, 21%);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 9%, 80%, 0.5);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.968);
+}
+
+ol{
+  padding: 0;
+}
+li{
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 7px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+.checked {
+  text-decoration: line-through; 
+  opacity: 0.5; 
+
+}
+
+
+
+.checkedbox {
+  
+  margin-left: 15px;
+  display: inline-block;
+  width: 20px; 
+  height: 20px; 
+  background-color: #fff; 
+  border: 2px solid #333; 
+  border-radius: 4px; 
+  cursor: pointer;
+}
