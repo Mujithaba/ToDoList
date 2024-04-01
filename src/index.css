@@ -58,17 +58,21 @@ ol{
   padding: 0;
 }
 li{
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
   font-size: 2rem;
   font-weight: bold;
   padding: 7px;
-  background-color: hsl(0, 0%, 97%);
+  background-color: hsl(0, 2%, 88%);
   margin-bottom: 10px;
   border: 3px solid hsla(0, 0%, 85%, 0.75);
   border-radius: 5px;
   display: flex;
   align-items: center;
+  transition: transform 0.3s ease;
+}
+li:hover{
+  transform: scale(1.06);
 }
 .text{
   flex: 1;
